@@ -16,7 +16,7 @@ class Umbrella {
         imageMode(CENTER);  
         //display the image for BestMan if the frameCount is over 200, otherwise display the boy with umbrella image
        
-        if(frameCount%200 === 0){
+        if(frameCount%200 >=== 0){
         image(this.batmanImg, pos.x, pos.y+70,200, 300)
         }else{
             image(this.image,pos.x,pos.y+70,300,300);
